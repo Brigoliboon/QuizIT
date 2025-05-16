@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="200dp"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp"
+    tools:context=".ui.quiz.fragment.ScoreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="14"
+        android:textColor="@color/white"
+        android:textSize="45sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Great Job!"
+        android:textColor="@color/correct"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="24sp"
+        android:layout_marginBottom="300dp"/>
+
+    <Button
+        android:id="@+id/go_back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:textColor="@color/primary_bg"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="19sp"/>
+</LinearLayout>
